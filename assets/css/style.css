@@ -1,0 +1,110 @@
+* {
+  margin:0;
+  padding:0;  
+}
+
+body {
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+  background-color: powderblue;
+  color: indigo;
+}
+
+h1,
+h2 {
+  margin: 30px;
+}
+
+main {
+  padding: 80px;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: powderblue;
+}
+
+header,
+footer {
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  background-color: indigo;
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid black;
+}
+
+footer {
+  position: absolute;
+  border-top: 10px solid black;
+  color: powderblue;    
+}
+
+figure {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  width: 400px;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border: 3px solid lightslategray;
+  background-color:  lightgray;
+}
+
+form {
+  margin: 0 auto;
+  width: 800px;
+  padding: 10px;
+  border: 5px solid lightslategray;
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 250px;
+}
+  
+input, 
+textarea {
+  width: 300px;
+  height: 20px;
+  margin-bottom: 5px;
+  border: 2px solid lightslategray;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  margin-top: 10px;
+  background-color: lightslategray;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
